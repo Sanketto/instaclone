@@ -78,7 +78,7 @@ export default function PostView() {
                             <img src={more} />
                         </header>
                         <section id="post-img">
-                            <img src={data.postImage && heart} alt="post-img" />
+                            <img src={data.postImage} alt="post-img" />
                         </section>
 
                         <footer>
