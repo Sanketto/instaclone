@@ -34,7 +34,7 @@ export default function NewPost(){
            }))
            
           
-            axios.post('http://localhost:3000/create', data)
+            axios.post('https://instbackend.onrender.com/create', data)
             .then(res=>{
               console.log(res);
             })
